@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="musical.ScoreController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="836.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Menu%20Background.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="293.0" layoutX="254.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Pontos.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label" layoutX="369.0" layoutY="195.0" prefHeight="137.0" prefWidth="267.0">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Label fx:id="label2" layoutX="102.0" layoutY="201.0" prefHeight="137.0" prefWidth="267.0">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Button layoutX="657.0" layoutY="508.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="112.0" text="Sair" />
+   </children>
+</AnchorPane>

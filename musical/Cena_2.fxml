@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="musical.Cena_2Controller">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="806.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Menu%20Background.png" />
+         </image>
+      </ImageView>
+      <CheckBox fx:id="personagem1" layoutX="133.0" layoutY="353.0" mnemonicParsing="false" text="Personagem 1">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="personagem2" layoutX="479.0" layoutY="353.0" mnemonicParsing="false" text="Personagem 2">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </CheckBox>
+      <ImageView id="personagem1" fitHeight="266.0" fitWidth="156.0" layoutX="133.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Personagens/Boneco1_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="266.0" fitWidth="156.0" layoutX="455.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Personagens/Boneco2_1.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="nomeJogador" layoutX="259.0" layoutY="452.0" prefHeight="25.0" prefWidth="268.0" />
+      <Label fx:id="lab" layoutX="326.0" layoutY="400.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="647.0" layoutY="529.0" mnemonicParsing="false" onAction="#display" prefHeight="36.0" prefWidth="99.0" text="Jogar">
+         <cursor>
+            <Cursor fx:constant="WAIT" />
+         </cursor></Button>
+   </children>
+</AnchorPane>

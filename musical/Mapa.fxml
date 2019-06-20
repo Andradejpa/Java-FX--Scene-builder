@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="449.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="musical.MapaController">
+   <children>
+      <ImageView fitHeight="457.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/world_map_1-.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="185.0" layoutY="244.0" mnemonicParsing="false" onAction="#proximaCena" opacity="0.0" prefHeight="154.0" prefWidth="67.0" rotate="-154.8" text="Região 1">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fx:id="personagem" fitHeight="88.0" fitWidth="70.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Personagens/Boneco1_1.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

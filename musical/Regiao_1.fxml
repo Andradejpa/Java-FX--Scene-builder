@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="musical.Regiao_1Controller">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Menu%20Background.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="247.0" layoutY="176.0" prefHeight="249.0" prefWidth="287.0" style="-fx-background-color: transparent;">
+         <children>
+            <Button defaultButton="true" mnemonicParsing="false" onAction="#proximaPergunta" prefHeight="52.0" prefWidth="301.0" text="Vitor Kley - O Sol" />
+            <Button defaultButton="true" mnemonicParsing="false" onAction="#respostaIncorreta" prefHeight="52.0" prefWidth="301.0" text="Vitor V- O Sol" />
+            <Button defaultButton="true" mnemonicParsing="false" onAction="#respostaIncorreta" prefHeight="52.0" prefWidth="287.0" text="Julio Gama - O Sol" />
+            <Button defaultButton="true" mnemonicParsing="false" onAction="#respostaIncorreta" prefHeight="52.0" prefWidth="287.0" text="João Klein - O Sol" />
+         </children>
+      </VBox>
+      <Label fx:id="label" layoutX="251.0" layoutY="61.0" prefHeight="38.0" prefWidth="298.0" />
+      <Label fx:id="label" layoutX="293.0" layoutY="447.0" prefHeight="52.0" prefWidth="145.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

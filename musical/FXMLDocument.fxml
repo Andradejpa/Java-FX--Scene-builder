@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.Button?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="musical.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="602.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Menu%20Background.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="173.0" layoutX="332.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Botão%20Placar.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="159.0" layoutX="332.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Botão%20Jogar.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="367.0" layoutY="206.0" mnemonicParsing="false" onAction="#changeScreenButtonPushed" opacity="0.0" prefHeight="35.0" prefWidth="93.0" text="Aperte">
+         <effect>
+            <Glow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="354.0" layoutY="313.0" mnemonicParsing="false" onAction="#score" opacity="0.0" prefHeight="43.0" prefWidth="114.0" text="Button" />
+   </children>
+   
+   
+   
+   
+</AnchorPane>

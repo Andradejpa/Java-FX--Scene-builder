@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="musical.Regiao_1_P3Controller">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Menu%20Background.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="277.0" layoutY="137.0" prefHeight="209.0" prefWidth="247.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#respostaIncorreta" prefHeight="52.0" prefWidth="301.0" text="Ana Gabriela - Saber Quem Sou " />
+            <Button mnemonicParsing="false" onAction="#respostaIncorreta" prefHeight="52.0" prefWidth="301.0" text="Moanna" />
+            <Button mnemonicParsing="false" onAction="#proximaPergunta" prefHeight="52.0" prefWidth="301.0" text="Any Gabrielly - Saber Quem Sou " />
+            <Button mnemonicParsing="false" onAction="#respostaIncorreta" prefHeight="52.0" prefWidth="301.0" text="Any Gabrielle - Moana" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

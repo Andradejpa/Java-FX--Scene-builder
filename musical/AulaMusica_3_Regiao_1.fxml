@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="musical.AulaMusica_3_Regiao_1Controller">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Menu%20Background.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="253.0" fitWidth="385.0" layoutX="108.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Gif/moana.gif" />
+         </image>
+      </ImageView>
+      <Text layoutX="108.0" layoutY="377.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Música de Any Gabrielly - Saber Quem Sou&#10;Do filme Moana &#10;O filme conta a história de Moana, a filha querida do chefe de uma tribo motunui, &#10;escolhida pelo próprio oceano para reunir uma relíquia mística a uma deusa&#10;&#10;">
+         <font>
+            <Font name="Century" size="17.0" />
+         </font>
+      </Text>
+      <Button layoutX="643.0" layoutY="514.0" mnemonicParsing="false" onAction="#continuar" prefHeight="34.0" prefWidth="93.0" text="Continuar" />
+   </children>
+</AnchorPane>

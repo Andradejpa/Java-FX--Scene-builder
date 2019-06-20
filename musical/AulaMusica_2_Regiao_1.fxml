@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="musical.AulaMusica_2_Regiao_1Controller">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Menu%20Background.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="282.0" fitWidth="343.0" layoutX="443.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Gif/tenor.gif" />
+         </image>
+      </ImageView>
+      <Text layoutX="200.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ratinho - Meu pé meu querido pé, música que garantiu o programa de tv Castelo ratimbu a ser um dos melhores programas de tv da historia." wrappingWidth="431.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="96.0" fitWidth="120.0" layoutX="651.0" layoutY="492.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Botao_Continuar.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="658.0" layoutY="526.0" mnemonicParsing="false" onAction="#continuar" opacity="0.0" prefHeight="29.0" prefWidth="83.0" text="Continuar" />
+   </children>
+</AnchorPane>

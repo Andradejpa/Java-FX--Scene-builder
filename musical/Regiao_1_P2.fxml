@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="musical.Regiao_1_P2Controller">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Menu%20Background.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="270.0" layoutY="155.0" prefHeight="210.0" prefWidth="287.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#respostaIncorreta" prefHeight="52.0" prefWidth="301.0" text="Castelo Rá Tim Bum - Tomando banho" />
+            <Button mnemonicParsing="false" onAction="#proximaPergunta" prefHeight="52.0" prefWidth="301.0" text="Ratinho - Meu pé meu querido pé" />
+            <Button mnemonicParsing="false" onAction="#respostaIncorreta" prefHeight="52.0" prefWidth="301.0" text="Castelo Ra Tim Bum - Meu pé meu querido pé" />
+            <Button mnemonicParsing="false" onAction="#respostaIncorreta" prefHeight="52.0" prefWidth="301.0" text="Meu pé meu querido pé - Roberto cezar " />
+         </children>
+      </VBox>
+      <Label fx:id="label" layoutX="254.0" layoutY="55.0" prefHeight="74.0" prefWidth="320.0">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
